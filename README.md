@@ -1,1 +1,1 @@
-# trejgun-eslint-config
+# @trejgun/eslint-config

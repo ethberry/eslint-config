@@ -1,0 +1,47 @@
+{
+  "author": {
+    "email": "TrejGun+OpenSource@gmail.com",
+    "name": "TrejGun"
+  },
+  "bugs": {
+    "url": "https://github.com/TrejGun/trejgun-eslint-config/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.3.2",
+    "@typescript-eslint/parser": "2.3.2",
+    "babel-eslint": "10.0.3",
+    "eslint": "6.5.1",
+    "eslint-config-prettier": "6.3.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-import-resolver-ts": "0.4.2",
+    "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-mocha": "6.1.1",
+    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-prettier": "3.1.1",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "7.15.1",
+    "eslint-plugin-standard": "4.0.1"
+  },
+  "description": "eslint config",
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@trejgun/eslint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrejGun/trejgun-eslint-config"
+  },
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "sideEffects": false,
+  "title": "trejgun eslint config",
+  "type": "module",
+  "version": "0.0.1"
+}
