@@ -8,9 +8,12 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ["react"],
+  plugins: [
+    "react",
+    "react-hooks",
+  ],
   rules: {
-    "react/display-name": [0],
+    "react/display-name": 0,
     "react/jsx-closing-bracket-location": [1, "line-aligned"],
     "react/jsx-sort-default-props": [
       "error",
@@ -38,7 +41,7 @@ module.exports = {
     ],
     react: {
       pragma: "React",
-      version: "16.9.0",
+      version: "detect",
     },
   },
 };

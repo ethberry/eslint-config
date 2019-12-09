@@ -23,6 +23,7 @@
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.2.0",
     "eslint-plugin-standard": "4.0.1"
   },
   "description": "eslint config",
@@ -42,6 +43,5 @@
   },
   "sideEffects": false,
   "title": "trejgun eslint config",
-  "type": "module",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
