@@ -6,7 +6,15 @@
   "bugs": {
     "url": "https://github.com/TrejGun/trejgun-eslint-config/issues"
   },
-  "dependencies": {
+  "description": "eslint config",
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@trejgun/eslint-config",
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "2.10.0",
     "@typescript-eslint/parser": "2.10.0",
     "babel-eslint": "10.0.3",
@@ -23,16 +31,10 @@
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.17.0",
+    "eslint-plugin-react-hooks": "2.2.0",
+    "eslint-plugin-react-native": "3.8.1",
     "eslint-plugin-standard": "4.0.1"
   },
-  "description": "eslint config",
-  "engines": {
-    "node": ">=10"
-  },
-  "keywords": [],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "@trejgun/eslint-config",
   "repository": {
     "type": "git",
     "url": "https://github.com/TrejGun/trejgun-eslint-config"

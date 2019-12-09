@@ -1,3 +1,1 @@
-const config = require("./presets/tsx");
-
-module.exports = config;
+export default from "./presets/tsx";

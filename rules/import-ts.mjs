@@ -1,4 +1,4 @@
-module.exports = {
+export default  {
   extends: ["plugin:import/typescript"],
   rules: {
     "import/no-extraneous-dependencies": [
