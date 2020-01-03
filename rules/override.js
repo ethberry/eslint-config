@@ -13,7 +13,7 @@ module.exports = {
     ],
     "linebreak-style": ["error", "unix"],
     "multiline-ternary": ["error", "always-multiline"],
-    "no-console": ["error", {allow: ["error"]}],
+    "no-console": ["error", {allow: ["error", "warn", "info"]}],
     "no-multiple-empty-lines": [
       "error",
       {
