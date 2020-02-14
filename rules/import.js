@@ -17,11 +17,13 @@ module.exports = {
       {
         devDependencies: [
           "**/test/**/*.js",
+          "**/test/**/*.jsx",
           "**/*.test.js",
           "**/*.test.jsx",
           "**/*.spec.js",
           "**/*.spec.jsx",
           "**/enzyme.config.js",
+          "**/webpack.config.js"
         ],
       },
     ],

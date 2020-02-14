@@ -1,6 +1,14 @@
 module.exports = {
   rules: {
-    "max-len": ["error", {code: 120, ignoreRegExpLiterals: true, ignoreTemplateLiterals: true}],
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "ignoreRegExpLiterals": true,
+        "ignoreTemplateLiterals": true,
+        "ignorePattern": "^\\s+d=\"", // ignore path in svg icons
+      },
+    ],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": [2, "always-multiline"],
     indent: [

@@ -6,7 +6,9 @@ module.exports = {
       {
         devDependencies: [
           "**/test/**/*.js",
+          "**/test/**/*.jsx",
           "**/test/**/*.ts",
+          "**/test/**/*.tsx",
           "**/*.test.js",
           "**/*.test.jsx",
           "**/*.test.ts",
@@ -17,18 +19,16 @@ module.exports = {
           "**/*.spec.tsx",
           "**/enzyme.config.js",
           "**/enzyme.config.ts",
+          "**/webpack.config.js",
         ],
       },
     ],
   },
   settings: {
     "import/resolver": {
-      ts: {
-        alwaysTryTypes: true,
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
     },
-    "import/ignore": [
-      "ormconfig.ts", // this exception is for typeorm config
-    ],
   },
 };
