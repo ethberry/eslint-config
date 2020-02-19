@@ -1,6 +1,8 @@
 module.exports = {
   extends: ["plugin:import/typescript"],
   rules: {
+    "import/default": "off",
+    "import/named": "off",
     "import/no-extraneous-dependencies": [
       "error",
       {
