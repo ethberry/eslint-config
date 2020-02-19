@@ -10,7 +10,7 @@ module.exports = {
       },
     ],
     "arrow-parens": ["error", "as-needed"],
-    "comma-dangle": [2, "always-multiline"],
+    "comma-dangle": ["error", "always-multiline"],
     indent: [
       "error",
       2,
@@ -21,7 +21,12 @@ module.exports = {
     ],
     "linebreak-style": ["error", "unix"],
     "multiline-ternary": ["error", "always-multiline"],
-    "no-console": ["error", {allow: ["error", "warn", "info"]}],
+    "no-console": [
+      "error",
+      {
+        allow: ["error", "warn", "info"],
+      },
+    ],
     "no-multiple-empty-lines": [
       "error",
       {

@@ -7,6 +7,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
   ],
   rules: {
+    "import/default": "off",
+    "import/named": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/ban-ts-ignore": "off",
     "@typescript-eslint/no-explicit-any": "off",

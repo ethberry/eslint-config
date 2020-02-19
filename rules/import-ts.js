@@ -5,29 +5,22 @@ module.exports = {
       "error",
       {
         devDependencies: [
-          "**/test/**/*.js",
-          "**/test/**/*.jsx",
-          "**/test/**/*.ts",
-          "**/test/**/*.tsx",
-          "**/*.test.js",
-          "**/*.test.jsx",
-          "**/*.test.ts",
-          "**/*.test.tsx",
-          "**/*.spec.js",
-          "**/*.spec.jsx",
-          "**/*.spec.ts",
-          "**/*.spec.tsx",
-          "**/enzyme.config.js",
-          "**/enzyme.config.ts",
-          "**/webpack.config.js",
+          "**/test/**/*.{ts,tsx,js,jsx}",
+          "**/*.test.{ts,tsx,js,jsx}",
+          "**/*.spec.{ts,tsx,js,jsx}",
+          "**/enzyme.config.{ts,js}",
+          "**/webpack.config.js"
         ],
       },
     ],
   },
   settings: {
     "import/resolver": {
+      ts: {
+        alwaysTryTypes: true,
+      },
       node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
+        extensions: [".ts", ".tsx", ".js", ".jsx"],
       },
     },
   },

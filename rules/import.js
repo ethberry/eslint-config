@@ -16,18 +16,15 @@ module.exports = {
       "error",
       {
         devDependencies: [
-          "**/test/**/*.js",
-          "**/test/**/*.jsx",
-          "**/*.test.js",
-          "**/*.test.jsx",
-          "**/*.spec.js",
-          "**/*.spec.jsx",
-          "**/enzyme.config.js",
+          "**/test/**/*.{js,jsx}",
+          "**/*.test.{js,jsx}",
+          "**/*.spec.{js,jsx}",
+          "**/enzyme.config.{ts,js}",
           "**/webpack.config.js"
         ],
       },
     ],
-    "import/namespace": [2, {allowComputed: true}],
+    "import/namespace": ["error", {allowComputed: true}],
   },
   settings: {
     "import/resolver": {
