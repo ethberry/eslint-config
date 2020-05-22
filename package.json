@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@trejgun/eslint-config",
-  "devDependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.19.2",
     "@typescript-eslint/parser": "^2.19.2",
     "babel-eslint": "^10.0.3",
@@ -38,6 +38,62 @@
     "graphql": "^14.6.0",
     "prettier": "^1.19.1",
     "typescript": "^3.7.5"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "babel-eslint": {
+      "optional": true
+    },
+    "eslint-config-prettier": {
+      "optional": true
+    },
+    "eslint-import-resolver-ts": {
+      "optional": true
+    },
+    "eslint-plugin-babel": {
+      "optional": true
+    },
+    "eslint-plugin-graphql": {
+      "optional": true
+    },
+    "eslint-plugin-jest": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-plugin-mocha": {
+      "optional": true
+    },
+    "eslint-plugin-node": {
+      "optional": true
+    },
+    "eslint-plugin-prettier": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-react-native": {
+      "optional": true
+    },
+    "graphql": {
+      "optional": true
+    },
+    "prettier": {
+      "optional": true
+    },
+    "typescript": {
+      "optional": true
+    }
   },
   "repository": {
     "type": "git",

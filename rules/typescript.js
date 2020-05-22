@@ -9,9 +9,11 @@ module.exports = {
   rules: {
     "no-unused-vars": "off",
     "camelcase": "off",
-    "@typescript-eslint/no-empty-function": "off",
-    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
@@ -21,17 +23,20 @@ module.exports = {
         vars: "all",
       },
     ],
-    "@typescript-eslint/interface-name-prefix": [
-      "error",
-      {
-        prefixWithI: "always",
-      },
-    ],
+    "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-namespace": [
       "error",
       {
         allowDeclarations: true,
+      },
+    ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "interface",
+        format: ['PascalCase'],
+        prefix: ["I"],
       },
     ],
   },
