@@ -20,11 +20,22 @@ module.exports = {
           "**/*.test.{js,jsx}",
           "**/*.spec.{js,jsx}",
           "**/enzyme.config.{ts,js}",
-          "**/webpack.config.js"
+          "**/webpack.config.js",
         ],
       },
     ],
-    "import/namespace": ["error", {allowComputed: true}],
+    "import/namespace": [
+      "error",
+      {
+        allowComputed: true,
+      },
+    ],
+    "import/no-unresolved": [
+      "error",
+      {
+        commonjs: true,
+      },
+    ],
   },
   settings: {
     "import/resolver": {

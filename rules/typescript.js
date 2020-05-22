@@ -7,6 +7,8 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
   ],
   rules: {
+    "no-unused-vars": "off",
+    "camelcase": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/ban-ts-ignore": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -20,14 +22,14 @@ module.exports = {
       },
     ],
     "@typescript-eslint/interface-name-prefix": [
-      2,
+      "error",
       {
         prefixWithI: "always",
       },
     ],
     "@typescript-eslint/no-empty-interface": "off",
     "@typescript-eslint/no-namespace": [
-      2,
+      "error",
       {
         allowDeclarations: true,
       },

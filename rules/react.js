@@ -13,8 +13,8 @@ module.exports = {
     "react-hooks",
   ],
   rules: {
-    "react/display-name": 0,
-    "react/jsx-closing-bracket-location": [1, "line-aligned"],
+    "react/display-name": "off",
+    "react/jsx-closing-bracket-location": ["warn", "line-aligned"],
     "react/jsx-sort-default-props": [
       "error",
       {

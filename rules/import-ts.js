@@ -11,15 +11,19 @@ module.exports = {
           "**/*.test.{ts,tsx,js,jsx}",
           "**/*.spec.{ts,tsx,js,jsx}",
           "**/enzyme.config.{ts,js}",
-          "**/webpack.config.js"
+          "**/webpack.config.js",
         ],
       },
     ],
   },
   settings: {
     "import/resolver": {
-      ts: {
+      typescript: {
         alwaysTryTypes: true,
+        directory: [
+          "packages/*/tsconfig.json",
+          "services/*/tsconfig.json",
+        ]
       },
       node: {
         extensions: [".ts", ".tsx", ".js", ".jsx"],
