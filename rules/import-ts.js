@@ -18,12 +18,8 @@ module.exports = {
   },
   settings: {
     "import/resolver": {
-      typescript: {
+      ts: {
         alwaysTryTypes: true,
-        directory: [
-          "packages/*/tsconfig.json",
-          "services/*/tsconfig.json",
-        ]
       },
       node: {
         extensions: [".ts", ".tsx", ".js", ".jsx"],
