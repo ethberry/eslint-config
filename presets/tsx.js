@@ -3,10 +3,9 @@ module.exports = {
     "./ts",
     "../rules/react",
     "../rules/prettier-react",
-    "../rules/override"
   ].map(require.resolve),
   rules: {
     "react/prop-types": "off",
-    "@typescript-eslint/unbound-method": "off"
-  }
+    "@typescript-eslint/unbound-method": "off",
+  },
 };

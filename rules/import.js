@@ -19,7 +19,7 @@ module.exports = {
           "**/test/**/*.{js,jsx}",
           "**/*.test.{js,jsx}",
           "**/*.spec.{js,jsx}",
-          "**/enzyme.config.{ts,js}",
+          "**/enzyme.config.js",
           "**/webpack.config.js",
         ],
       },
