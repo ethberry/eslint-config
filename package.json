@@ -107,5 +107,5 @@
   },
   "sideEffects": false,
   "title": "trejgun eslint config",
-  "version": "1.0.0-alpha.1"
+  "version": "0.0.12"
 }
