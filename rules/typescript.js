@@ -7,6 +7,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
   ],
   rules: {
+    "no-use-before-define": "off",
     "no-unused-vars": "off",
     "camelcase": "off",
 
@@ -15,6 +16,7 @@ module.exports = {
     "@typescript-eslint/no-unsafe-member-access": "off",
     "@typescript-eslint/no-unsafe-call": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
