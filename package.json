@@ -14,6 +14,9 @@
   "license": "MIT",
   "main": "index.js",
   "name": "@trejgun/eslint-config",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
     "@babel/eslint-parser": "^7.11.3",
     "@babel/eslint-plugin": "^7.11.3",
