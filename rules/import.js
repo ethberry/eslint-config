@@ -19,8 +19,10 @@ module.exports = {
           "**/test/**/*.{js,jsx}",
           "**/*.test.{js,jsx}",
           "**/*.spec.{js,jsx}",
-          "**/enzyme.config.js",
           "**/webpack.config.js",
+          "**/webpack.development.js",
+          "**/webpack.production.js",
+          "**/enzyme.config.js",
         ],
       },
     ],
@@ -42,6 +44,12 @@ module.exports = {
       node: {
         extensions: [".js", ".jsx"],
       },
+    },
+    "import/parsers": {
+      "espree": [
+        ".js",
+        ".jsx",
+      ],
     },
   },
 };
