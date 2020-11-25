@@ -39,6 +39,10 @@ module.exports = {
         selector: "interface",
         format: ["PascalCase"],
         prefix: ["I"],
+        filter: {
+          match: false,
+          regex: "^(ProcessEnv)$"
+        },
       },
     ],
   },
