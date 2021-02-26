@@ -9,7 +9,7 @@ module.exports = {
     "import/newline-after-import": [
       "error",
       {
-        count: 2,
+        count: 1, // 2 does not play nice with prettier
       },
     ],
     "import/no-extraneous-dependencies": [
