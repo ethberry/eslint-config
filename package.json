@@ -18,29 +18,29 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
-    "@babel/eslint-parser": "^7.11.3",
-    "@babel/eslint-plugin": "^7.11.3",
-    "@typescript-eslint/eslint-plugin": "^4.0.0",
-    "@typescript-eslint/parser": "^4.0.0",
-    "eslint": "^7.7.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-standard": "^14.1.1 || ^16.0.0",
+    "@babel/eslint-parser": "^7.13.0",
+    "@babel/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-standard": "^16.0.0",
     "eslint-import-resolver-ts": "^0.4.2",
     "eslint-plugin-graphql": "^4.0.0",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^24.0.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.0",
     "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.20.6",
-    "eslint-plugin-react-hooks": "^4.1.0",
-    "eslint-plugin-react-native": "^3.8.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.10.0",
+    "eslint-plugin-standard": "^5.0.0",
     "graphql": "^15.0.0",
-    "prettier": "^2.0.5",
-    "typescript": "^4.0.0"
+    "prettier": "^2.2.0",
+    "typescript": "^4.2.0"
   },
   "peerDependenciesMeta": {
     "@babel/eslint-parser": {
@@ -107,5 +107,5 @@
   },
   "sideEffects": false,
   "title": "trejgun eslint config",
-  "version": "0.0.15"
+  "version": "0.1.0"
 }

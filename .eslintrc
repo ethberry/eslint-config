@@ -5,8 +5,7 @@
   "extends": [
     "standard",
     "eslint:recommended",
-    "prettier",
-    "prettier/standard"
+    "prettier"
   ],
   "plugins": [
     "standard",

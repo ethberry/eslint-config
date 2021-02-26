@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["./js", "../rules/react", "../rules/prettier-react"].map(require.resolve),
+  extends: ["./js", "../rules/react"].map(require.resolve),
 };

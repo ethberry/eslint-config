@@ -1,8 +1,7 @@
 module.exports = {
   extends: [
     "./ts",
-    "../rules/react",
-    "../rules/prettier-react",
+    "../rules/react"
   ].map(require.resolve),
   rules: {
     "react/prop-types": "off",

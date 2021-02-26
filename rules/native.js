@@ -1,11 +1,11 @@
 module.exports = {
-  "plugins": [
+  plugins: [
     "react-native",
   ],
-  "settings": {
+  settings: {
     "import/resolver": {
-      "node": {
-        "extensions": [
+      node: {
+        extensions: [
           ".js",
           ".ts",
           ".jsx",
@@ -22,7 +22,7 @@ module.exports = {
       },
     },
   },
-  "globals": {
+  globals: {
     "__DEV__": true,
   },
 };
