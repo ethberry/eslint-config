@@ -45,11 +45,5 @@ module.exports = {
         extensions: [".js", ".jsx"],
       },
     },
-    "import/parsers": {
-      "espree": [
-        ".js",
-        ".jsx",
-      ],
-    },
   },
 };
