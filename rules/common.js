@@ -6,7 +6,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 6,
   },
-  plugins: ["standard"],
   rules: {
     "max-len": [
       "error",
