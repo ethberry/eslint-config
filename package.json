@@ -20,8 +20,8 @@
   "peerDependencies": {
     "@babel/eslint-parser": "^7.13.0",
     "@babel/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@typescript-eslint/parser": "^4.15.2",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.0",
@@ -32,8 +32,8 @@
     "eslint-plugin-jsx-a11y": "^6.4.0",
     "eslint-plugin-mocha": "^8.0.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-promise": "^5.0.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-react-native": "^3.10.0",
@@ -106,5 +106,5 @@
   },
   "sideEffects": false,
   "title": "trejgun eslint config",
-  "version": "0.1.4"
+  "version": "0.1.5"
 }
