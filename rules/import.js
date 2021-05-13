@@ -23,6 +23,7 @@ module.exports = {
           "**/webpack.config.js",
           "**/webpack.development.js",
           "**/webpack.production.js",
+          "**/enzyme.config.js",
         ],
       },
     ],
