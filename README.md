@@ -1,1 +1,1 @@
-# @trejgun/eslint-config
+# @gemunionstudio/eslint-config

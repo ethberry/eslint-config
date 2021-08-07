@@ -1,19 +1,19 @@
 {
   "author": {
-    "email": "TrejGun+OpenSource@gmail.com",
+    "email": "TrejGun+GemunIonStudio@gmail.com",
     "name": "TrejGun"
   },
   "bugs": {
-    "url": "https://github.com/TrejGun/trejgun-eslint-config/issues"
+    "url": "https://github.com/GemunIonStudio/eslint-config/issues"
   },
   "description": "eslint config",
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "keywords": [],
   "license": "MIT",
   "main": "index.js",
-  "name": "@trejgun/eslint-config",
+  "name": "@gemunionstudio/eslint-config",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -99,12 +99,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrejGun/trejgun-eslint-config"
+    "url": "https://github.com/GemunIonStudio/eslint-config"
   },
   "scripts": {
     "lint": "eslint . --fix"
   },
   "sideEffects": false,
-  "title": "trejgun eslint config",
-  "version": "0.1.7"
+  "title": "Gemun Ion Studio ESLint config",
+  "version": "0.1.8"
 }
