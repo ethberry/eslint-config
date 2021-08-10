@@ -6,7 +6,7 @@ module.exports = {
     "no-invalid-this": "off",
     "no-unused-expressions": "off",
     "object-curly-spacing": "off",
-    "semi": "off",
+    semi: "off",
 
     "@babel/new-cap": "error",
     "@babel/no-invalid-this": "error",

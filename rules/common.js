@@ -10,15 +10,15 @@ module.exports = {
     "max-len": [
       "error",
       {
-        "code": 120,
-        "ignoreRegExpLiterals": true,
-        "ignoreTemplateLiterals": true,
-        "ignorePattern": "^\\s+d=\"", // ignore path in svg icons
+        code: 120,
+        ignoreRegExpLiterals: true,
+        ignoreTemplateLiterals: true,
+        ignorePattern: '^\\s+d="', // ignore path in svg icons
       },
     ],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "always-multiline"],
-    "indent": [
+    indent: [
       "error",
       2,
       {
@@ -52,8 +52,8 @@ module.exports = {
     ],
     "object-curly-spacing": ["error", "never"],
     "operator-linebreak": ["error", "before"],
-    "quotes": ["error", "double"],
-    "semi": ["error", "always"],
+    quotes: ["error", "double"],
+    semi: ["error", "always"],
     "no-void": "off",
   },
 };

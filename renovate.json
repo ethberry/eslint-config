@@ -1,5 +1,3 @@
-
 {
   "extends": ["github>gemunionstudio/renovate-config"],
-  "requiredStatusChecks": null
 }

@@ -8,10 +8,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [
-    "react",
-    "react-hooks",
-  ],
+  plugins: ["react", "react-hooks"],
   rules: {
     "react/display-name": "off",
     "react/jsx-closing-bracket-location": ["warn", "line-aligned"],

@@ -1,16 +1,6 @@
 {
-  "env": {
-    "node": true
-  },
   "extends": [
-    "standard",
-    "eslint:recommended",
-    "prettier"
+    "./presets/js"
   ],
-  "plugins": [
-    "standard",
-    "prettier"
-  ],
-  "parser": "babel-eslint",
   "root": true
 }

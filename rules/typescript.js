@@ -9,7 +9,7 @@ module.exports = {
   rules: {
     "no-unused-vars": "off",
     "no-use-before-define": "off",
-    "camelcase": "off",
+    camelcase: "off",
     "@typescript-eslint/ban-ts-comment": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unsafe-member-access": "off",
@@ -41,7 +41,7 @@ module.exports = {
         prefix: ["I"],
         filter: {
           match: false,
-          regex: "^(ProcessEnv)$"
+          regex: "^(ProcessEnv)$",
         },
       },
     ],

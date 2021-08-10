@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    "react-native",
-  ],
+  plugins: ["react-native"],
   settings: {
     "import/resolver": {
       node: {
@@ -23,6 +21,6 @@ module.exports = {
     },
   },
   globals: {
-    "__DEV__": true,
+    __DEV__: true,
   },
 };

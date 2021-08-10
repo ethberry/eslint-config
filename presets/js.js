@@ -5,7 +5,5 @@ module.exports = {
     "../rules/babel",
     "../rules/import",
     "../rules/prettier",
-  ].map(
-    require.resolve,
-  ),
+  ].map(require.resolve),
 };
