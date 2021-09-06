@@ -28,6 +28,8 @@ module.exports = {
       },
     ],
     "react/jsx-wrap-multilines": "error",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   },
   settings: {
     linkComponents: [
