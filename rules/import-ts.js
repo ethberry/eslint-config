@@ -13,7 +13,7 @@ module.exports = {
           "**/*.stories.{ts,tsx,js,jsx}",
           "**/webpack.config.{js,ts}",
           "**/webpack.development.{js,ts}",
-          "**/webpack.production.js",
+          "**/webpack.production.{js,ts}",
           "**/enzyme.config.{ts,js}",
         ],
       },
