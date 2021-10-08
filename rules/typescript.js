@@ -41,7 +41,7 @@ module.exports = {
         prefix: ["I"],
         filter: {
           match: false,
-          regex: "^(ProcessEnv)$",
+          regex: "^(ProcessEnv|Window)$",
         },
       },
     ],
