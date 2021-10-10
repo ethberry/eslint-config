@@ -8,7 +8,7 @@
   },
   "description": "eslint config",
   "engines": {
-    "node": ">=12"
+    "node": ">=12.13"
   },
   "keywords": [],
   "license": "MIT",
@@ -35,7 +35,7 @@
     "eslint": "^7",
     "eslint-config-prettier": "^8",
     "eslint-config-standard": "^16",
-    "eslint-import-resolver-ts": "^0",
+    "eslint-import-resolver-typescript": "^2",
     "eslint-plugin-graphql": "^4",
     "eslint-plugin-import": "^2",
     "eslint-plugin-jest": "^24",
@@ -67,7 +67,7 @@
     "eslint-config-prettier": {
       "optional": true
     },
-    "eslint-import-resolver-ts": {
+    "eslint-import-resolver-typescript": {
       "optional": true
     },
     "eslint-plugin-graphql": {
