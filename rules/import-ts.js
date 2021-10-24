@@ -15,6 +15,7 @@ module.exports = {
           "**/webpack.development.{js,ts}",
           "**/webpack.production.{js,ts}",
           "**/enzyme.config.{ts,js}",
+          "**/hardhat.config.{js,ts}",
         ],
       },
     ],
