@@ -8,13 +8,6 @@
     "url": "https://github.com/gemunion/eslint-config/issues"
   },
   "description": "eslint config",
-  "engines": {
-    "node": ">=12.13"
-  },
-  "keywords": [],
-  "license": "MIT",
-  "main": "index.js",
-  "name": "@gemunion/eslint-config",
   "devDependencies": {
     "@babel/eslint-parser": "7.17.0",
     "@babel/eslint-plugin": "7.16.5",
@@ -28,7 +21,15 @@
     "eslint-plugin-promise": "6.0.0",
     "prettier": "2.5.1"
   },
+  "engines": {
+    "node": ">=12.13"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@gemunion/eslint-config",
   "peerDependencies": {
+    "@20minutes/eslint-plugin-graphql": "^6.0.0",
     "@babel/eslint-parser": "^7.0.0",
     "@babel/eslint-plugin": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "^4.0.0 || ^5.0.0",
@@ -51,6 +52,9 @@
     "typescript": "^4.0.0"
   },
   "peerDependenciesMeta": {
+    "@20minutes/eslint-plugin-graphql": {
+      "optional": true
+    },
     "@babel/eslint-parser": {
       "optional": true
     },

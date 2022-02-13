@@ -16,8 +16,8 @@ module.exports = {
       "error",
       {
         devDependencies: [
-          "**/test/**/*.{js,jsx}",
-          "**/*.test.{js,jsx}",
+          "**/tests/**/*.{js,jsx}",
+          "**/*.tests.{js,jsx}",
           "**/*.spec.{js,jsx}",
           "**/*.stories.{js,jsx}",
           "**/webpack.config.js",

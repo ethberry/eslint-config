@@ -1,7 +1,7 @@
 module.exports = {
-  plugins: ["graphql"],
+  plugins: ["@20minutes/graphql"],
   rules: {
-    "graphql/template-strings": [
+    "@20minutes/graphql/template-strings": [
       "error",
       {
         env: "apollo",
