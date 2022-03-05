@@ -1,5 +1,14 @@
 module.exports = {
-  plugins: ["react-native"],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  env: {
+    "react-native/react-native": true,
+  },
+  plugins: ["react", "react-native"],
+  extends: ["plugin:react-native/all"],
   settings: {
     "import/resolver": {
       node: {
