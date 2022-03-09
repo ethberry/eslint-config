@@ -8,7 +8,7 @@ module.exports = {
       {
         devDependencies: [
           "**/tests/**/*.{ts,tsx,js,jsx}",
-          "**/*.tests.{ts,tsx,js,jsx}",
+          "**/*.test.{ts,tsx,js,jsx}",
           "**/*.spec.{ts,tsx,js,jsx}",
           "**/*.stories.{ts,tsx,js,jsx}",
           "**/webpack.config.{js,ts}",
