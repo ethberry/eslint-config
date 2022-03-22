@@ -1,11 +1,14 @@
 module.exports = {
-  plugins: ["@20minutes/graphql"],
-  rules: {
-    "@20minutes/graphql/template-strings": [
-      "error",
-      {
-        env: "apollo",
+  overrides: [
+    {
+      files: ["*.graphql"],
+      extends: "plugin:@graphql-eslint/schema-recommended",
+      rules: {
+        "prettier/prettier": "error",
       },
-    ],
-  },
+      parserOptions: {
+        schema: "./schema.gql",
+      },
+    },
+  ],
 };
