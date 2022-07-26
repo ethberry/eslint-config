@@ -33,11 +33,11 @@ jobs:
       - name: Authenticate check via npm
         run: npm whoami --registry=https://npm.pkg.github.com/
 
-      - name: Install Packages npm i
-        run: npm i
-
-      - name: Build Packages
-        run: npm run build
+#      - name: Install Packages npm i
+#        run: npm i
+#
+#      - name: Build Packages
+#        run: npm run build
 
       - name: Version by NPM
         run: npm version patch -m "[Manual release] [skip ci] %s"
