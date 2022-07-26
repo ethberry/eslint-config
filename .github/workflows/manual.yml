@@ -47,17 +47,16 @@ jobs:
         env:
           GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
-      - name: Authenticate NPM Registry & Configure Git User
-        run: |
-          rm .npmrc
+      - name: Remove File
+        uses: JesseTG/rm@v1.0.3
+        with:
+          path: ./.npmrc
 
       - name: Authenticate NPM Registry & Configure Git User
         run: |
           echo "save-exact=true" > .npmrc
           echo "package-lock=false" >> .npmrc
           echo "legacy-peer-deps=true" >> .npmrc
-#          echo "@gemunion:registry=https://npm.pkg.github.com/" >> .npmrc
-#          echo "//npm.pkg.github.com/:_authToken=$GITHUBTOKEN" >> .npmrc
           git update-index --assume-unchanged .npmrc
           npx npm-cli-login -u $GITHUBUSER -p $NPMTOKEN -e $GITHUBEMAIL -s @gemunion --config-path="./"
           git config --global user.name '@gemunion'
