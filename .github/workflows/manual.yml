@@ -53,17 +53,14 @@ jobs:
           echo "legacy-peer-deps=true" >> .npmrc
           git update-index --assume-unchanged .npmrc
           echo "@gemunion:registry=https://registry.npmjs.org/" >> .npmrc
-          echo "//registry.npmjs.org/:_authToken=${NPMTOKEN}" >> .npmrc
-          git update-index --assume-unchanged .npmrc
-          git config --global user.name '@gemunion'
-          git config --global user.email $GITHUBEMAIL
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
         env:
-          GITHUBTOKEN: ${{ secrets.NPMTOKEN }}
-          GITHUBUSER: ${{ secrets.GITHUBUSER }}
-          GITHUBEMAIL: ${{ secrets.GITHUBEMAIL }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Authenticate check via npm
-        run: npm whoami
+      - name: Publish to NPM
+        run: npm publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Git push
         run: git push --no-verify && git push --tags --no-verify
