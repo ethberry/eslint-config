@@ -12,7 +12,7 @@ module.exports = {
   rules: {
     "react/display-name": "off",
     "react/jsx-closing-bracket-location": ["warn", "line-aligned"],
-    "react/jsx-sort-default-props": [
+    "react/sort-default-props": [
       "error",
       {
         ignoreCase: true,
