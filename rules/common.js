@@ -4,7 +4,7 @@ module.exports = {
   },
   extends: ["standard", "eslint:recommended"],
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2021,
   },
   rules: {
     "max-len": [
