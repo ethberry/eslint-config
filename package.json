@@ -1,6 +1,6 @@
 {
   "author": {
-    "email": "TrejGun+gemunion@gmail.com",
+    "email": "trejgun@gemunion.io",
     "name": "TrejGun",
     "url": "https://gemunion.io/"
   },
@@ -23,7 +23,7 @@
     "prettier": "2.8.8"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": ">=18"
   },
   "keywords": [],
   "license": "MIT",
@@ -38,19 +38,19 @@
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-import-resolver-typescript": "^2.0.0 || ^3.0.0",
+    "eslint-import-resolver-typescript": "^3.0.0",
     "eslint-plugin-import": "^2.0.0",
-    "eslint-plugin-jest": "^26.0.0 || ^27.0.0",
+    "eslint-plugin-jest": "^27.0.0",
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-mocha": "^10.0.0",
-    "eslint-plugin-n": "^15.0.0 || ^16.0.0",
+    "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.0.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-react-native": "^4.0.0",
     "prettier": "^2.0.0",
-    "typescript": "^4.0.0 || ^5.0.0"
+    "typescript": "^5.0.0"
   },
   "peerDependenciesMeta": {
     "@babel/eslint-parser": {
@@ -114,5 +114,5 @@
   },
   "sideEffects": false,
   "title": "Gemunion ESLint config",
-  "version": "2.0.7"
+  "version": "3.0.0"
 }
