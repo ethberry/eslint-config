@@ -20,6 +20,7 @@
     "eslint-plugin-n": "16.0.1",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-testing-library": "6.0.0",
     "prettier": "3.0.1"
   },
   "engines": {
@@ -36,7 +37,7 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
-    "eslint-config-prettier": "^8.0.0 || ^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-import-resolver-typescript": "^3.0.0",
     "eslint-plugin-import": "^2.0.0",
@@ -44,11 +45,12 @@
     "eslint-plugin-jsx-a11y": "^6.0.0",
     "eslint-plugin-mocha": "^10.0.0",
     "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-prettier": "^4.0.0 || ^5.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.0.0",
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-testing-library": "^6.0.0",
     "prettier": "^3.0.0",
     "typescript": "^5.0.0"
   },
@@ -96,6 +98,9 @@
       "optional": true
     },
     "eslint-plugin-react-native": {
+      "optional": true
+    },
+    "eslint-plugin-testing-library": {
       "optional": true
     },
     "prettier": {
