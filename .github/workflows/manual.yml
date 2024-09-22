@@ -14,6 +14,12 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
 
+      - name: Install Packages npm i
+        run: npm i
+
+      - name: Build Packages
+        run: npm run build
+
       - name: Authenticate GUTHUB Registry & Configure Git User
         run: |
           echo "save-exact=true" > .npmrc
