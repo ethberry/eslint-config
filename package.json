@@ -7,24 +7,24 @@
     "url": "https://github.com/gemunion/eslint-config/issues"
   },
   "dependencies": {
-    "@eslint/js": "9.10.0",
+    "@eslint/js": "9.11.0",
     "@stylistic/eslint-plugin-js": "2.8.0",
     "@stylistic/eslint-plugin-jsx": "2.8.0",
     "@stylistic/eslint-plugin-ts": "2.8.0",
-    "eslint": "9.10.0",
+    "eslint": "9.11.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-jest": "28.8.3",
     "eslint-plugin-mocha": "10.5.0",
-    "eslint-plugin-n": "17.10.2",
+    "eslint-plugin-n": "17.10.3",
     "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-promise": "7.1.0",
-    "eslint-plugin-react": "7.35.2",
+    "eslint-plugin-react": "7.36.1",
     "eslint-plugin-testing-library": "6.3.0",
     "globals": "15.9.0",
     "prettier": "3.3.3",
-    "typescript": "5.5.4",
-    "typescript-eslint": "8.4.0"
+    "typescript": "5.6.2",
+    "typescript-eslint": "8.6.0"
   },
   "engines": {
     "node": ">=22"
