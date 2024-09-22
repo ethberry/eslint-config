@@ -7,3 +7,6 @@
 # NODE
 node_modules/
 npm-debug.log
+
+# test
+test.ts

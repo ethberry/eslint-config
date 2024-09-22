@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "./presets/js"
-  ],
-  "root": true
-}
