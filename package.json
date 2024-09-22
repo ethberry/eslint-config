@@ -38,6 +38,7 @@
     "url": "git+https://github.com/gemunion/eslint-config.git"
   },
   "scripts": {
+    "build": "exit 0",
     "lint": "eslint . --fix"
   },
   "sideEffects": false,
