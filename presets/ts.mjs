@@ -5,8 +5,8 @@ import nodeRules from "../rules/node.mjs";
 import prettierRules from "../rules/prettier.mjs";
 
 export default [
-  ...typescriptRules,
   ...commonRules,
+  ...typescriptRules,
   ...promiseRules,
   ...nodeRules,
   ...prettierRules,

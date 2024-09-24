@@ -6,8 +6,8 @@ import reactRules from "../rules/react.mjs";
 import prettierRules from "../rules/prettier.mjs";
 
 export default [
-  ...typescriptRules,
   ...commonRules,
+  ...typescriptRules,
   ...promiseRules,
   ...nodeRules,
   ...reactRules,
