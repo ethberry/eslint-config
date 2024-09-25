@@ -3,14 +3,13 @@ import globals from "globals";
 import stylisticJsx from "@stylistic/eslint-plugin-jsx";
 
 export default [
-  // base
-  reactPlugin.configs.flat.recommended,
-
-  // overrides
+  // config
   {
+    files: ["**/*.{jsx,mjsx,tsx,mtsx}"],
     languageOptions: {
       globals: {
         ...globals.browser,
+        ...globals.serviceworker,
       },
     },
     settings: {
@@ -18,6 +17,16 @@ export default [
         version: "detect",
       },
     },
+  },
+
+  // base
+  {
+    files: ["**/*.{jsx,mjsx,tsx,mtsx}"],
+    ...reactPlugin.configs.flat.recommended,
+  },
+
+  // overrides
+  {
     files: ["**/*.{jsx,mjsx,tsx,mtsx}"],
     rules: {
       "react/react-in-jsx-scope": "off",
