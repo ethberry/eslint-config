@@ -5,7 +5,7 @@
     "url": "https://trejgun.github.io/"
   },
   "bugs": {
-    "url": "https://github.com/gemunion/eslint-config/issues"
+    "url": "https://github.com/ethberry/eslint-config/issues"
   },
   "dependencies": {
     "@eslint/js": "9.11.0",
@@ -33,19 +33,19 @@
   "keywords": [],
   "license": "MIT",
   "main": "./index.mjs",
-  "name": "@gemunion/eslint-config",
+  "name": "@ethberry/eslint-config",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gemunion/eslint-config.git"
+    "url": "git+https://github.com/ethberry/eslint-config.git"
   },
   "scripts": {
     "build": "exit 0",
     "lint": "eslint . --fix"
   },
   "sideEffects": false,
-  "title": "Gemunion ESLint config",
+  "title": "EthBerry ESLint config",
   "version": "5.0.1"
 }
