@@ -1,3 +1,10 @@
 {
-  "extends": ["github>ethberry/renovate-config"]
+  "extends": ["github>ethberry/renovate-config"],
+  "baseBranches": ["master"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch"],
+      "automerge": true
+    }
+  ]
 }
