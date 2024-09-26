@@ -3,13 +3,17 @@ import nodePlugin from "eslint-plugin-n";
 export default [
   // base
   {
-    files: ["**/*.{js,mjs,ts,mts}"],
+    files: ["**/*.{mjs,ts,mts}"],
     ...nodePlugin.configs["flat/recommended-module"],
+  },
+  {
+    files: ["**/*.{js,cjs}"],
+    ...nodePlugin.configs["flat/recommended-script"],
   },
 
   // overrides
   {
-    files: ["**/*.{js,mjs,ts,mts}"],
+    files: ["**/*.{mjs,ts,mts}"],
     rules: {
       "n/exports-style": ["error", "exports"],
     },
