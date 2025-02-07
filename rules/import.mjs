@@ -8,6 +8,14 @@ export default [
       'import/order': [
         "error",
         {
+          "groups": [
+            "builtin",
+            "external",
+            "internal",
+            ["sibling", "parent"],
+            "index",
+            "object",
+          ],
           "pathGroups": [
             {
               "pattern": "@{ethberry,framework}/**",
