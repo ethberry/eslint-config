@@ -4,6 +4,7 @@ import promiseRules from "../rules/promise.mjs";
 import nodeRules from "../rules/node.mjs";
 import reactRules from "../rules/react.mjs";
 import prettierRules from "../rules/prettier.mjs";
+import importRules from "../rules/import.mjs";
 
 export default [
   ...commonRules,
@@ -12,5 +13,6 @@ export default [
   ...nodeRules,
   ...reactRules,
   ...prettierRules,
+  ...importRules,
 ];
 

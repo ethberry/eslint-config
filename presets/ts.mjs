@@ -3,6 +3,7 @@ import commonRules from "../rules/common.mjs";
 import promiseRules from "../rules/promise.mjs";
 import nodeRules from "../rules/node.mjs";
 import prettierRules from "../rules/prettier.mjs";
+import importRules from "../rules/import.mjs";
 
 export default [
   ...commonRules,
@@ -10,4 +11,5 @@ export default [
   ...promiseRules,
   ...nodeRules,
   ...prettierRules,
+  ...importRules,
 ]

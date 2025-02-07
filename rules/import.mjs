@@ -1,5 +1,6 @@
-// eslint plugin import is not supporting eslint9 yet
+import importPlugin from "eslint-plugin-import";
 
 export default [
-
+  importPlugin.flatConfigs.recommended,
+  importPlugin.flatConfigs.typescript
 ]
