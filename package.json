@@ -8,11 +8,11 @@
     "url": "https://github.com/ethberry/eslint-config/issues"
   },
   "dependencies": {
-    "@eslint/js": "9.24.0",
+    "@eslint/js": "9.25.1",
     "@stylistic/eslint-plugin-js": "4.2.0",
     "@stylistic/eslint-plugin-jsx": "4.2.0",
     "@stylistic/eslint-plugin-ts": "4.2.0",
-    "eslint": "9.24.0",
+    "eslint": "9.25.1",
     "eslint-config-prettier": "10.1.2",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-jest": "28.11.0",
@@ -25,7 +25,7 @@
     "globals": "16.0.0",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
-    "typescript-eslint": "8.29.1"
+    "typescript-eslint": "8.31.0"
   },
   "engines": {
     "node": ">=22"
