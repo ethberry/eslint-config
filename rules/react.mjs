@@ -1,6 +1,6 @@
 import reactPlugin from "eslint-plugin-react";
 import globals from "globals";
-import stylisticJsx from "@stylistic/eslint-plugin-jsx";
+import stylistic from "@stylistic/eslint-plugin";
 
 export default [
   // config
@@ -38,10 +38,10 @@ export default [
   // stylistic
   {
     plugins: {
-      "@stylistic/jsx": stylisticJsx,
+      "@stylistic": stylistic,
     },
     rules: {
-      "@stylistic/jsx/jsx-indent": ["error", 2],
+      "@stylistic/jsx-indent": ["error", 2],
     },
   },
 ]

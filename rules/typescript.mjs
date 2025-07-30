@@ -1,5 +1,5 @@
 import tsEslint from "typescript-eslint";
-import stylisticTs from "@stylistic/eslint-plugin-ts";
+import stylistic from "@stylistic/eslint-plugin";
 
 export default [
   // base
@@ -55,7 +55,7 @@ export default [
   // stylistic
   {
     plugins: {
-      "@stylistic/ts": stylisticTs,
+      "@stylistic": stylistic,
     },
   },
 ]

@@ -1,5 +1,5 @@
 import js from "@eslint/js";
-import stylisticJs from "@stylistic/eslint-plugin-js";
+import stylistic from "@stylistic/eslint-plugin";
 
 export default [
   // base
@@ -30,7 +30,7 @@ export default [
   // stylistic
   {
     plugins: {
-      "@stylistic/js": stylisticJs,
+      "@stylistic": stylistic,
     },
     rules: {
       "max-len": [
