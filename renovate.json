@@ -2,7 +2,7 @@
   "extends": [
     "github>ethberry/renovate-config"
   ],
-  "baseBranches": [
+  "baseBranchPatterns": [
     "master"
   ],
   "packageRules": [
