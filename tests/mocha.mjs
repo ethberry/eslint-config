@@ -4,9 +4,9 @@ import mochaPlugin from "eslint-plugin-mocha";
 export default [
   {
     files: ["**/*.spec.ts", "**/*.spec.js"],
-    ...mochaPlugin.configs.flat.recommended,
+    ...mochaPlugin.configs.recommended,
     rules: {
-      ...mochaPlugin.configs.flat.recommended.rules,
+      ...mochaPlugin.configs.recommended.rules,
       "mocha/no-exports": "off",
       "mocha/no-hooks-for-single-case": "off",
       "mocha/no-skipped-tests": "off",
