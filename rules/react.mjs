@@ -37,6 +37,7 @@ export default [
 
   // stylistic
   {
+    files: ["**/*.{jsx,mjsx,tsx,mtsx}"],
     plugins: {
       "@stylistic": stylistic,
     },
@@ -44,4 +45,4 @@ export default [
       "@stylistic/jsx-indent": ["error", 2],
     },
   },
-]
+];

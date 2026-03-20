@@ -8,6 +8,7 @@ export default [
   // overrides
   {
     rules: {
+      curly: ["error", "all"],
       "no-console": [
         "error",
         {
@@ -24,7 +25,7 @@ export default [
         },
       ],
       "no-void": "off",
-    }
+    },
   },
 
   // stylistic
@@ -39,7 +40,7 @@ export default [
           code: 120,
           ignoreRegExpLiterals: true,
           ignoreTemplateLiterals: true,
-          ignorePattern: "^\\s+d=\"", // ignore path in svg icons
+          ignorePattern: '^\\s+d="', // ignore path in svg icons
         },
       ],
       "arrow-parens": ["error", "as-needed"],
@@ -67,4 +68,4 @@ export default [
       semi: ["error", "always"],
     },
   },
-]
+];

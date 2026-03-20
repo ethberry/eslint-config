@@ -10,4 +10,4 @@ export default [
   ...nodeRules,
   ...reactRules,
   ...prettierRules,
-]
+];

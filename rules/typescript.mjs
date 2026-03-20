@@ -58,4 +58,4 @@ export default [
       "@stylistic": stylistic,
     },
   },
-]
+];

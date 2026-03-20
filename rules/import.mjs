@@ -5,10 +5,10 @@ export default [
   importPlugin.flatConfigs.typescript,
   {
     rules: {
-      'import/order': [
+      "import/order": [
         "error",
         {
-          "groups": [
+          groups: [
             "builtin",
             "external",
             "internal",
@@ -16,17 +16,17 @@ export default [
             "index",
             "object",
           ],
-          "pathGroups": [
+          pathGroups: [
             {
-              "pattern": "@{ethberry,framework}/**",
-              "group": "external",
-              "position": "after"
-            }
+              pattern: "@{ethberry,framework}/**",
+              group: "external",
+              position: "after",
+            },
           ],
-          "pathGroupsExcludedImportTypes": ["builtin"],
-          'newlines-between': 'always',
+          pathGroupsExcludedImportTypes: ["builtin"],
+          "newlines-between": "always",
         },
       ],
-    }
-  }
-]
+    },
+  },
+];

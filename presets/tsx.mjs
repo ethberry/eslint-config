@@ -12,7 +12,6 @@ export default [
   ...promiseRules,
   ...nodeRules,
   ...reactRules,
-  ...prettierRules,
   ...importRules,
+  ...prettierRules,
 ];
-
