@@ -20,8 +20,19 @@ export default [
       "@typescript-eslint/no-unsafe-call": "warn",
       "@typescript-eslint/no-misused-promises": "warn",
       "@typescript-eslint/ban-ts-comment": "off",
-      "@typescript-eslint/array-type": "off",
-      "@typescript-eslint/prefer-nullish-coalescing": "off",
+      "@typescript-eslint/array-type": [
+        "error",
+        {
+          default: "array-simple",
+        },
+      ],
+      "@typescript-eslint/prefer-nullish-coalescing": [
+        "error",
+        {
+          ignoreConditionalTests: true,
+          ignoreMixedLogicalExpressions: true,
+        },
+      ],
       "@typescript-eslint/unbound-method": "off",
       "@typescript-eslint/no-empty-object-type": "off",
       "@typescript-eslint/no-explicit-any": "off",

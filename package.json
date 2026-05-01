@@ -29,7 +29,16 @@
   "engines": {
     "node": ">=22"
   },
-  "keywords": [],
+  "exports": {
+    ".": {
+      "default": "./index.mjs",
+      "import": "./index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+
+  ],
   "license": "MIT",
   "main": "./index.mjs",
   "name": "@ethberry/eslint-config",
@@ -47,5 +56,6 @@
   },
   "sideEffects": false,
   "title": "EthBerry ESLint config",
+  "type": "module",
   "version": "5.0.11"
 }
