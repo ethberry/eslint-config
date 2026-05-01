@@ -36,9 +36,7 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "license": "MIT",
   "main": "./index.mjs",
   "name": "@ethberry/eslint-config",
@@ -57,5 +55,5 @@
   "sideEffects": false,
   "title": "EthBerry ESLint config",
   "type": "module",
-  "version": "5.0.11"
+  "version": "5.0.12"
 }
