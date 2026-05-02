@@ -62,5 +62,5 @@
   "sideEffects": false,
   "title": "EthBerry ESLint config",
   "type": "module",
-  "version": "5.0.12"
+  "version": "5.0.13"
 }
