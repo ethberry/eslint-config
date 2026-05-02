@@ -34,7 +34,14 @@
       "default": "./index.mjs",
       "import": "./index.mjs",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./presets/js.mjs": "./presets/js.mjs",
+    "./presets/jsx.mjs": "./presets/jsx.mjs",
+    "./presets/ts.mjs": "./presets/ts.mjs",
+    "./presets/tsx.mjs": "./presets/tsx.mjs",
+    "./tests/jest.mjs": "./tests/jest.mjs",
+    "./tests/mocha.mjs": "./tests/mocha.mjs",
+    "./tests/testing-library.mjs": "./tests/testing-library.mjs"
   },
   "keywords": [],
   "license": "MIT",
