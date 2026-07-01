@@ -28,7 +28,7 @@ jobs:
           node-version: "24.x"
 
       - name: Install packages
-        run: npm i
+        run: npm ci
 
       - name: Build
         run: npm run build
