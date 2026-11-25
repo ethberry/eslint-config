@@ -35,6 +35,17 @@ export default defineConfig([
 ]);
 ```
 
+### Import resolution
+
+The TS presets resolve imports with `eslint-import-resolver-typescript` (then node), so ESM imports ending in `.js` and
+packages with only `exports` resolve. A repository with several tsconfigs sets
+`settings["import/resolver"].typescript.project` in its own config.
+
+### Test presets
+
+`tests/jest.mjs` and `tests/testing-library.mjs` apply to both test suffixes, `*.spec.*` and `*.test.*`.
+`jest/no-focused-tests` is an error: a committed `.only` fails lint.
+
 ### Usage
 
 `eslint.config.mjs`

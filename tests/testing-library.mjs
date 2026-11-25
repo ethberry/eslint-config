@@ -2,7 +2,7 @@ import testingLibraryPlugin from "eslint-plugin-testing-library";
 
 export default [
   {
-    files: ["**/*.spec.tsx", "**/*.spec.jsx"],
+    files: ["**/*.{spec,test}.{tsx,jsx}"],
     ...testingLibraryPlugin.configs["flat/dom"],
     ...testingLibraryPlugin.configs["flat/react"],
     rules: {
