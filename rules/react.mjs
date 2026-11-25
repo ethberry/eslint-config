@@ -1,6 +1,5 @@
 import reactPlugin from "eslint-plugin-react";
 import globals from "globals";
-import stylistic from "@stylistic/eslint-plugin";
 
 export default [
   // config
@@ -32,17 +31,6 @@ export default [
       "react/react-in-jsx-scope": "off",
       "react/display-name": "off",
       "react/prop-types": "off",
-    },
-  },
-
-  // stylistic
-  {
-    files: ["**/*.{jsx,mjsx,tsx,mtsx}"],
-    plugins: {
-      "@stylistic": stylistic,
-    },
-    rules: {
-      "@stylistic/jsx-indent": ["error", 2],
     },
   },
 ];
