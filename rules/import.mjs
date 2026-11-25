@@ -4,6 +4,14 @@ export default [
   importPlugin.flatConfigs.recommended,
   importPlugin.flatConfigs.typescript,
   {
+    // ESM TypeScript imports end in `.js` and packages may have only `exports`: the node resolver cannot follow
+    // either. A repository with several tsconfigs sets `typescript.project` in its own config.
+    settings: {
+      "import/resolver": {
+        typescript: true,
+        node: true,
+      },
+    },
     rules: {
       "import/order": [
         "error",

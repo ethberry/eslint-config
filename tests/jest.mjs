@@ -3,7 +3,8 @@ import jestPlugin from "eslint-plugin-jest";
 
 export default [
   {
-    files: ["**/*.spec.ts", "**/*.spec.js"],
+    // both suffixes are in use: a package decides between *.spec.* and *.test.*
+    files: ["**/*.{spec,test}.{ts,tsx,js,jsx}"],
     ...jestPlugin.configs["flat/recommended"],
     rules: {
       ...jestPlugin.configs["flat/recommended"].rules,
